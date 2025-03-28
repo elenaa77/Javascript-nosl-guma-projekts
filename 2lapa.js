@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const piedavajumi = [
-        { valsts: "Ņujorka", cena: 1200, attels: "" },
-        { valsts: "Losandželosa", cena: 1500, attels: "" },
-        { valsts: "Maijami", cena: 1800, attels: "" },
-        { valsts: "Čikāga", cena: 2000, attels: "" }
+        { valsts: "Došanās uz Ņujorku, autobusu-gājēju ekskursija pilsētā. Ņujorka (New York City) - pasaules nozīmes megapole un lielākā ASV pilsētā.", cena: 1200, attels: "Ņujorka.jpg" },
+        { valsts: "Losandželosa ir otrā lielākā pilsēta ASV un atrodas Kalifornijas štatā. Kad jūs domājat par Losandželosu, lielākā daļa cilvēku domā par Holivudu, slavenībām un bagātību. ", cena: 1500, attels: "Losandželosa (2).jpg" },
+        { valsts: "Maijami", cena: 1800, attels: "Maijami.png" },
+        { valsts: "Čikāga ir pazīstama ar savu slaveno arhitektūru, bagāto kultūras un mākslas ainas, izcilu izklaides piedāvājumu un daudzveidīgo ēdienu.", cena: 2000, attels: "Cikaga.png" }
     ];
  
     function raditPiedavajumus(filtrEtiePiedavajumi = piedavajumi) {
