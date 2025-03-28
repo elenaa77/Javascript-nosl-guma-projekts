@@ -1,0 +1,37 @@
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   background-color: #e0f7fa;
+   margin: 0;
+   padding: 20px;
+}
+h1 {
+   background-color: white;
+   padding: 10px;
+   display: inline-block;
+   border-radius: 10px;
+}
+.filtra-konteiners {
+   margin: 20px;
+}
+label, input, button {
+   margin: 10px;
+}
+.piedavajumu-konteiners {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+}
+.piedavajuma-kartite {
+   background-color: white;
+   border-radius: 10px;
+   padding: 15px;
+   width: 250px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+.piedavajuma-kartite img {
+   width: 100%;
+   border-radius: 10px;
+}

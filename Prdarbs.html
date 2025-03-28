@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Padara lapu pielagotam mobilajām telefonam -->
+    <title>Ceļojumi uz ASV</title>
+    <link rel="stylesheet" href="darbss.css">
+</head>
+<body>
+    <h1>Ceļojumi uz ASV</h1>
+    <p>Pieejamie ceļojumu piedāvājumi!</p>
+    <!-- Cenu filtrs -->
+    <div class="filtra-konteiners">
+        <label for="cenu-filtrs">Cenu filtrs (no 1000-2500$):</label>
+        <input type="range" id="cenu-filtrs" min="1000" max="2500" step="100"> <!-- Slīdnis cenu izvēlei -->
+        <span id="cenas-vertiba">5000$</span> <!-- Šeit ir kļūda: vērtība pārsniedz diapazonu -->
+    </div>
+ 
+    <h2>Piedāvājumi</h2>
+    <div id="piedavajumi" class="piedavajumu-konteiners"></div>
+ 
+    <script src="2lapa.js"></script>
+</body>
+</html>
