@@ -2,23 +2,29 @@
 <html lang="lv">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Padara lapu pielagotam mobilajām telefonam -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ceļojumi uz ASV</title>
     <link rel="stylesheet" href="darbss.css">
 </head>
 <body>
     <h1>Ceļojumi uz ASV</h1>
     <p>Pieejamie ceļojumu piedāvājumi!</p>
-    <!-- Cenu filtrs -->
     <div class="filtra-konteiners">
-        <label for="cenu-filtrs">Cenu filtrs (no 1000-2500$):</label>
-        <input type="range" id="cenu-filtrs" min="1000" max="2500" step="100"> <!-- Slīdnis cenu izvēlei -->
-        <span id="cenas-vertiba">5000$</span> <!-- Šeit ir kļūda: vērtība pārsniedz diapazonu -->
+        <label for="cenu-filtrs">Cenu filtrs (no 1000-2000$):</label>
+        <input type="range" id="cenu-filtrs" min="1000" max="2000" step="100" value="2000"> 
+        <span id="cenas-vertiba">2000$</span> 
     </div>
- 
+
     <h2>Piedāvājumi</h2>
     <div id="piedavajumi" class="piedavajumu-konteiners"></div>
- 
-    <script src="2lapa.js"></script>
+    <h2>Spēle: Uzmini ceļojuma cenu!</h2>
+    <div id="minejuma-teksts">Uzminiet, cik varētu maksāt ceļojums uz valsts</div>
+    <input type="number" id="minejuma-ievade" placeholder="Ievadiet savu minējumu">
+    <button id="parbaudit-cenu">Pārbaudīt cenu</button>
+    <div id="meginajumu-teksts">Atlikušie mēģinājumi: 3</div>
+    <div id="speles-rezultats"></div>
+    <img id="pareiza-valsts-attels" class="paslepjams" alt="Pareizā valsts attēls">
+
+    <script src="2lapa.js"></script> 
 </body>
 </html>
