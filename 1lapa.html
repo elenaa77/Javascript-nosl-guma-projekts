@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valūtas kalkulators</title>
+  <link rel="stylesheet" href="1lapa.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Valūtas kalkulators</h1>
+      <p id="datetime">Pašreizējais laiks un datums</p>
+    </div>
+
+    <div class="layout">
+      <div class="side-images">
+        <img src="jura.jpg" alt="foto" class="photo"/>
+        <img src="town.jpg" alt="foto" class="photo"/>
+      </div>
+
+      <div class="main">
+        <div class="form-row">
+          <label for="amount"><strong>Summa:<br>(USD)</strong></label>
+          <input type="number" id="amount" placeholder="Ievadiet summu" />
+          <div class="dropdown">
+            <button id="currencyBtn">Izvēlies ▼</button>
+            <div class="dropdown-content">
+              <div onclick="selectCurrency('PLN')">PLN</div>
+              <div onclick="selectCurrency('EUR')">EUR</div>
+              <div onclick="selectCurrency('GBP')">GBP</div>
+            </div>
+          </div>
+        </div>
+
+        <button class="convert-btn" onclick="convert()">konvertēt</button>
+        <p id="result"></p>
+      </div>
+
+      <div class="side-images">
+        <img src="night.jpg" alt="foto" class="photo"/>
+        <img src="lasvegas.jpg" alt="foto" class="photo"/>
+      </div>
+    </div>
+    <div class="ad">
+      <img src="vocation.jpg" 
+           alt="travel ad" class="ad-image" />
+      <div class="ad-text">
+        Atpūties Maldīvās! Rezervē ceļojumu jau tagad un saņem 20% atlaidi!
+      </div>
+    </div>
+    <div class="footer">
+      <a href="Prdarbs.html" class="offer-btn">Pāriet uz braucienu piedāvājumu</a>
+    </div>
+  </div>
+
+  <script src="1lapa.js"></script>
+</body>
+</html>
