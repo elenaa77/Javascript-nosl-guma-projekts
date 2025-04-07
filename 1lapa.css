@@ -5,19 +5,16 @@ body {
     padding: 0;
     text-align: center;
   }
-  
 .container {
     padding: 20px;
   }
-  
   .header {
     background: white;
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
+  } 
 .layout {
     display: flex;
     justify-content: center;
@@ -39,8 +36,7 @@ body {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
+  }  
 .main {
     background: white;
     padding: 30px;
@@ -50,7 +46,6 @@ body {
     align-self: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
-  
 .form-row {
     display: flex;
     align-items: center;
@@ -58,13 +53,11 @@ body {
     gap: 10px;
     margin-bottom: 20px;
   }
-  
 .form-row label {
     font-weight: bold;
     text-align: right;
     min-width: 80px;
   }
-  
 .form-row input {
     padding: 10px;
     font-size: 16px;
@@ -80,17 +73,14 @@ body {
     cursor: pointer;
     font-size: 16px;
     border-radius: 2px;
-  }
-  
+  } 
 .convert-btn:hover {
     background-color: #9dd5e2;
-  }
-  
+  } 
 .dropdown {
     position: relative;
     display: inline-block;
   }
-  
 .dropdown button {
     padding: 10px 15px;
     font-weight: bold;
@@ -113,20 +103,16 @@ body {
     text-align: center;
     z-index: 1;
   }
-  
 .dropdown-content div {
     padding: 8px;
     cursor: pointer;
   }
-  
-  .dropdown-content div:hover {
+.dropdown-content div:hover {
     background-color: #e0e0e0;
   }
-  
 .dropdown:hover .dropdown-content {
     display: block;
   }
-  
 .ad {
     background: #fff;
     margin: 30px auto;
@@ -141,19 +127,16 @@ body {
     height: 200px;
     object-fit: cover;
   }
-  
-  .ad-text {
+.ad-text {
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
     color: #333;
     background-color: #f5f5f5;
   }
-  
 .footer {
     margin-top: 20px;
-  }
-  
+  } 
 .offer-btn {
     background-color: #b097ff;
     color: white;
@@ -164,8 +147,7 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s;
-  }
-  
+  }  
 .offer-btn:hover {
     background-color: #9a82e3;
   }
